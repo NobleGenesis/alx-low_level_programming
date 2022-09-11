@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print a hexadecimal string
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
