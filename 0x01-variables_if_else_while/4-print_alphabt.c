@@ -17,7 +17,7 @@ int main(void)
 		}
 		ch++;
 	}
-	putchart('\n');
+	putchar('\n');
 	return (0);
 }
 
