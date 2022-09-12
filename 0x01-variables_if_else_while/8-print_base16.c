@@ -2,23 +2,28 @@
 
 /**
  * main - Entry point
+ * 
+ * Description: Prints all the numbers of base 16 in
+ * lowercase, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c;
+	char hex_num, hex_alp;
 	
-	for (c = '0'; <= '9'; c++)
+	for (hex_num = 48; hex_num < 58; num++)
 	{
-		putchar(c);
+		putchar(hex_num);
 	}
 	
-	for (c = 'a'; c <= 'f'; c++)
+	for (hex_alp = 97; hex_alp <= 102; hex_alp++)
 	{
-		putchar(c);
+		putchar(hex_alp);
 	}
-		putchar('\n');	
+
+	putchar('\n');	
 	
 	return (0);
 }
