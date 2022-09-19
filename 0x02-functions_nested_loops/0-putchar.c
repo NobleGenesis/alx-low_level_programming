@@ -2,6 +2,7 @@
 
 /**
  * main - prints the string "Putchar" from a character array
+ *
  * Return: 0 on Success
  */
 
