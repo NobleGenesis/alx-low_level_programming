@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints the string 'Putchar' from a character array
+ * main - prints the string Putchar from a character array
  *
  * Return: 0 on Success
  */
@@ -19,6 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
+	
 	return (0);
 }
