@@ -12,9 +12,8 @@ int checker(int n, int base)
 		return (0);
 	else if (n == base -1)
 		return (1);
-	else is (base > n)
+	else if (base > n)
 		return (checker(n + 1, base));
-	return (1);
 }
 /**
  * is_prime_number - checks if the number is a prime number
