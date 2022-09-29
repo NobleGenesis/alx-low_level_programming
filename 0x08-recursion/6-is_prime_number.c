@@ -13,7 +13,9 @@ int checker(int n, int base)
 	else if (n == base -1)
 		return (1);
 	else if (base > n)
+	{
 		return (checker(n + 1, base));
+	}
 }
 
 /**
