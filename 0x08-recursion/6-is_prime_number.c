@@ -15,6 +15,7 @@ int checker(int n, int base)
 	else if (base > n)
 		return (checker(n + 1, base));
 }
+
 /**
  * is_prime_number - checks if the number is a prime number
  * @n: the number to check
