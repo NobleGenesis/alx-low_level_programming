@@ -28,7 +28,7 @@ void p_float(va_list f)
 /**
  * p_string - prints strings
  * @s: string to print
- */*
+ */
 void p_string(va_list s)
 {
 	char *string;
